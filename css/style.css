@@ -1161,6 +1161,23 @@ section::-webkit-scrollbar-thumb {
     .logo-div-2 {
         height: 48px;
     }
+
+    .home-detail,
+    .resume-box h2,
+    .resume-box .heading,
+    .resume-box .desc,
+    .resume-detail.me .resume-item {
+        text-align: center;
+    }
+
+    .home-detail .btn-sci {
+        flex-direction: column-reverse;
+    }
+
+    .home-detail .btn-sci .sci {
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
