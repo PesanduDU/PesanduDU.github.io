@@ -1147,6 +1147,11 @@ section::-webkit-scrollbar-thumb {
     }
 
     /* ----------------------------------- */
+
+    .home-detail h1 {
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -1177,6 +1182,11 @@ section::-webkit-scrollbar-thumb {
     .home-detail .btn-sci .sci {
         margin-left: 0;
         margin-bottom: 2rem;
+    }
+
+    .home-detail h1 {
+        line-height: 45px;
+        margin-bottom: 20px;
     }
 }
 
@@ -1212,6 +1222,11 @@ section::-webkit-scrollbar-thumb {
 
     .logo-div-2 {
         height: 48px;
+    }
+
+    .home-detail h1 {
+        line-height: 45px;
+        margin-bottom: 20px;
     }
 }
 
