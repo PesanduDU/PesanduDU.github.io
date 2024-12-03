@@ -164,3 +164,13 @@ form.addEventListener('submit', function (e) {
             }, 3000);
         });
 });
+
+// script for download the cv
+const buttonDown = document.getElementById("downloadBtn");
+
+buttonDown.addEventListener("click", function() {
+    const link = document.createElement("a");
+    link.href = "./files/Pesandu_Ubeysekara_CV.pdf";
+    link.download = "Pesandu_Ubeysekara_CV.pdf";
+    link.click();
+});
