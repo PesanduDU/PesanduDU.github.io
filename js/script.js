@@ -37,7 +37,7 @@ const activePage = () => {
 
 navLinks.forEach((link, idx) => {
     link.addEventListener('click', () => {
-        if (!link.classList.contains('active')){
+        if (!link.classList.contains('active')) {
             activePage();
 
             link.classList.add('active');
@@ -50,7 +50,7 @@ navLinks.forEach((link, idx) => {
 });
 
 logoLink.addEventListener('click', () => {
-    if (!navLinks[0].classList.contains('active')){
+    if (!navLinks[0].classList.contains('active')) {
         activePage();
 
         navLinks[0].classList.add('active');

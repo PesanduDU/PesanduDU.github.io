@@ -14,6 +14,7 @@
     <!-- custom css -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
     <!-- header -->
     <header class="active">
@@ -67,8 +68,14 @@
         <div class="btn-sci">
           <a href="#" class="btn">Download CV</a>
           <div class="sci">
-            <a href="https://github.com/PesanduDU" target="_self"><i class="bx bxl-github"></i></a>
-            <a href="https://www.linkedin.com/in/pesandu-ubeysekara-673777281/" target="_self"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/PesanduDU" target="_self"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/pesandu-ubeysekara-673777281/"
+              target="_self"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
             <a href="#"><i class="bx bxl-instagram"></i></a>
             <a href="#"><i class="bx bxl-discord-alt"></i></a>
           </div>
@@ -421,7 +428,7 @@
 
           <div class="resume-detail me">
             <h2 class="heading">About <span>Me</span></h2>
-            <p class="desc" style="padding: 1rem 0 .2rem;">
+            <p class="desc" style="padding: 1rem 0 0.2rem">
               Below are some of my personal details, including essential
               information that reflects my background.
             </p>
@@ -834,16 +841,36 @@
         </div>
 
         <div class="contact-box">
-          <form action="">
+          <form class="contact-form" action="">
             <h2 class="heading">Contact <span>Me</span></h2>
             <div class="field-box">
-              <input type="text" placeholder="Full Name" required />
-              <input type="email" placeholder="Email Address" required />
-              <input type="text" placeholder="Phone Number" required />
-              <input type="text" placeholder="Email Subject" required />
+              <input
+                type="text"
+                id="full_name"
+                placeholder="Full Name"
+                required
+              />
+              <input
+                type="email"
+                id="email"
+                placeholder="Email Address"
+                required
+              />
+              <input
+                type="text"
+                id="phone_number"
+                placeholder="Phone Number"
+                required
+              />
+              <input
+                type="text"
+                id="email_subject"
+                placeholder="Email Subject"
+                required
+              />
               <textarea
                 name=""
-                id=""
+                id="message"
                 placeholder="Type your message here!"
               ></textarea>
             </div>
@@ -853,7 +880,7 @@
       </div>
     </section>
 
-    <!-- custom js -->
+    <!-- custome js -->
     <script src="./js/script.js"></script>
   </body>
 </html>
