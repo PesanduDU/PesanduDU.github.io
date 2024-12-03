@@ -841,39 +841,54 @@
         </div>
 
         <div class="contact-box">
-          <form class="contact-form" action="">
+          <form
+            class="contact-form"
+            method="POST"
+          >
             <h2 class="heading">Contact <span>Me</span></h2>
             <div class="field-box">
+              <!-- Replace with your Access Key -->
+              <input
+                type="hidden"
+                name="access_key"
+                value="3a9bede5-6a14-4410-8479-cc287f82a2cb"
+              />
               <input
                 type="text"
+                name="full_name"
                 id="full_name"
                 placeholder="Full Name"
                 required
               />
               <input
                 type="email"
+                name="email"
                 id="email"
                 placeholder="Email Address"
                 required
               />
               <input
                 type="text"
+                name="phone_number"
                 id="phone_number"
                 placeholder="Phone Number"
                 required
               />
               <input
                 type="text"
+                name="subject"
                 id="email_subject"
                 placeholder="Email Subject"
                 required
               />
               <textarea
-                name=""
+                name="message"
                 id="message"
                 placeholder="Type your message here!"
               ></textarea>
             </div>
+
+            <div id="result"></div>
             <button type="submit" class="btn">Send Message</button>
           </form>
         </div>
